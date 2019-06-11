@@ -1,0 +1,53 @@
+body{
+    margin-top:70px;
+}
+
+.cate{
+    height:35em;
+    background-position:center;
+    background-size:cover;
+    overflow:hidden;
+}
+
+#vins{
+    background-image:url(../red-wine-two-glasses.jpg);
+}
+
+#champ{
+    background-image:url(../chilled-champagne-with-shining-stemware.jpg);
+}
+
+#fort{
+    background-image:url(../brown-liquor-being-poured.jpg);
+}
+.cat_link{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:white;
+    font-weight: bolder;
+    font-size:3em;
+    
+}
+
+.cat_link:hover{
+    text-decoration:none;
+    color:black;
+}
+.cat_link span{
+    padding:2%
+}
+.cat_link:hover span{
+    background-color:whitesmoke;
+}
+
+.filter{
+    background-color:rgba(49, 49, 49, 0.333);
+    width:110%;
+    height:100%;
+    margin-left:-5%;
+   
+}
+
+.filter:hover{
+    background-color:transparent;
+}

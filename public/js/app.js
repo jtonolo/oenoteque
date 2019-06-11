@@ -1,7 +1,7 @@
 
 	$(document).on("scroll", function(){
 		if
-      ($(document).scrollTop() > 86){
+      ($(document).scrollTop() > 96){
           $("#banner").addClass("shrink");
           $('#search').addClass("appear");
 		}

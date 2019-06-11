@@ -150,7 +150,7 @@ nav {
 
 .searchbar:hover>.search_input {
     padding: 0 10px;
-    width: 450px;
+    width: 80%;
     caret-color: red;
     transition: width 0.4s linear;
 }
@@ -243,6 +243,22 @@ header {
 
 }
 
+.hr{
+    height:1px;
+    background-color:black;
+}
+
+footer a{
+    color:white
+}
+footer a:hover{
+    color:rgb(159, 148, 148);
+}
+
+.let{
+    display:none;
+}
+
 /* mobile view */
 @media (max-width:500px) {
     .navbar-nav {
@@ -289,4 +305,7 @@ header {
         line-height: 23px;
         margin-bottom: 40px;
     }
-}
+    .search_input {
+        padding-bottom:2px;
+    }
+    }
