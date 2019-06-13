@@ -10,12 +10,17 @@
     <!--Search input-->
     <div class="container h-100">
       <div class="d-flex justify-content-center h-100">
-        <div class="searchbar" id="search">
+        <div class="searchbar d-sm-none d-none" id="search">
           <input class="search_input" type="text" name="" placeholder="Rechercher...">
           <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
         </div>
+        <div class="searchbar d-lg-none d-md-none d-inline" id="search1">
+                <input class="search_input1 w-75 let" type="text" name="" placeholder="Rechercher...">
+                <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+            </div>
       </div>
     </div>
+
   <!-- Navbar links -->
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav ml-auto">
